@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SS World Wide Express | International Courier Services</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header>
+
+<div class="container">
+
+<div class="logo">
+
+<img src="images/logo.png" alt="SS World Wide Express">
+
+</div>
+
+<nav>
+
+<ul>
+
+<li><a href="#">Home</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#services">Services</a></li>
+
+<li><a href="#tracking">Tracking</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</nav>
+
+</div>
+
+</header>
+
+<!-- ================= HERO ================= -->
+
+<section class="hero">
+
+<div class="overlay">
+
+<h1>Delivering Trust Across The World</h1>
+
+<p>International Courier | Documents | Parcels | Medicines | Export & Import</p>
+
+<a href="#quote" class="btn">Get Instant Quote</a>
+
+</div>
+
+</section>
+
+<!-- ================= TRACKING ================= -->
+
+<section id="tracking" class="tracking">
+
+<h2>Track Your Shipment</h2>
+
+<p>Enter your Tracking Number</p>
+
+<div class="tracking-box">
+
+<input type="text" id="trackingNumber" placeholder="Enter AWB / Tracking Number">
+
+<button onclick="trackShipment()">Track Shipment</button>
+
+</div>
+
+</section>
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="about">
+
+<div class="container">
+
+<h2>About Us</h2>
+
+<p>
+
+SS World Wide Express is a trusted international courier company located in Chandigarh.
+
+We provide worldwide shipping solutions through leading courier partners like DHL, FedEx,
+
+UPS and Trackon.
+
+Whether you're sending important documents, medicines,
+
+parcels or commercial shipments, we ensure secure,
+
+fast and reliable delivery.
+
+</p>
+
+</div>
+
+</section>
+
+<!-- ================= SERVICES ================= -->
+
+<section id="services" class="services">
+
+<h2>Our Services</h2>
+
+<div class="service-grid">
+
+<div class="card">
+
+<h3>International Courier</h3>
+
+<p>Worldwide parcel delivery.</p>
+
+</div>
+
+<div class="card">
+
+<h3>Document Courier</h3>
+
+<p>Fast & Secure delivery.</p>
+
+</div>
+
+<div class="card">
+
+<h3>Medicine Shipping</h3>
+
+<p>Worldwide medicine delivery.</p>
+
+</div>
+
+<div class="card">
+
+<h3>E-Commerce Shipping</h3>
+
+<p>Affordable export solutions.</p>
+
+</div>
+
+<div class="card">
+
+<h3>Import Services</h3>
+
+<p>Door-to-door imports.</p>
+
+</div>
+
+<div class="card">
+
+<h3>Express Delivery</h3>
+
+<p>Urgent international shipping.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= WHY US ================= -->
+
+<section class="why">
+
+<h2>Why Choose Us?</h2>
+
+<div class="why-grid">
+
+<div>✔ Affordable Rates</div>
+
+<div>✔ Door Pickup</div>
+
+<div>✔ Live Tracking</div>
+
+<div>✔ Worldwide Delivery</div>
+
+<div>✔ Secure Packaging</div>
+
+<div>✔ Fast Transit</div>
+
+</div>
+
+</section>
+
+<!-- ================= QUOTE ================= -->
+
+<section id="quote" class="quote">
+
+<h2>Request A Quote</h2>
+
+<form>
+
+<input type="text" placeholder="Full Name">
+
+<input type="text" placeholder="Phone Number">
+
+<input type="email" placeholder="Email Address">
+
+<input type="text" placeholder="Destination Country">
+
+<input type="text" placeholder="Weight (KG)">
+
+<textarea placeholder="Shipment Details"></textarea>
+
+<button>Request Quote</button>
+
+</form>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="contact">
+
+<h2>Contact Us</h2>
+
+<p><strong>Address</strong></p>
+
+<p>
+
+Cabin No.122, 1st Floor<br>
+
+OM Shanti Palace<br>
+
+SCO 154-155 Sector 45C<br>
+
+Chandigarh 160047
+
+</p>
+
+<p>
+
+📞 9316116394
+
+</p>
+
+<p>
+
+✉ sswwexp@yahoo.com
+
+</p>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+<h3>SS World Wide Express</h3>
+
+<p>Delivering Trust Across The World</p>
+
+<p>© 2026 All Rights Reserved.</p>
+
+</footer>
+
+<!-- WhatsApp Floating Button -->
+
+<a class="whatsapp"
+
+href="https://wa.me/919316116394"
+
+target="_blank">
+
+💬
+
+</a>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
